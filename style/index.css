@@ -1,0 +1,110 @@
+
+
+body
+{
+	font-family: sans-serif;
+}
+
+th,td
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.heading
+{
+   padding: 8px;
+}
+
+table,tr,th,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th
+{
+	background-color: #E8B8B7;
+}
+
+#showattend, #showattend tr, #showattend th, #showattend td
+{
+    border: 1px solid black;
+     border-collapse: collapse;
+}
+
+#showattend th,#showattend td
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+li{
+  float: right;
+}
+ul{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+#uname{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+  font-weight: bold;
+  background-color: #4CAF50;
+}
+
+.change {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+}
+
+.change:hover {
+  opacity: 0.8;
+}
+
+circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 5px;
+}
+
